@@ -17,11 +17,10 @@ import javafx.scene.shape.Shape;
 public class Colisiones {
     double EjeX;
     double EjeY;
-    static final int      KEYBOARD_MOVEMENT_DELTA = 50;
+    static final int KEYBOARD_MOVEMENT_DELTA = 50;
     
     Ganador win=new Ganador();
     public void validar (String dato,final Circle circle,ArrayList<Rectangle> rectangleArrayList){
-         System.out.println("----------------");
          EjeX=circle.getCenterX();
          EjeY=circle.getCenterY();
          win.win(EjeX,EjeY);

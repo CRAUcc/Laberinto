@@ -5,28 +5,17 @@
  */
 package laberinto;
 
-import static com.sun.java.accessibility.util.AWTEventMonitor.addKeyListener;
-import java.awt.Image;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
+
 import java.util.ArrayList;
 import javafx.application.Application;
-import javafx.scene.*;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.scene.shape.Rectangle;
-import javafx.animation.FillTransition; 
-import javafx.animation.Timeline; 
-import javafx.animation.ParallelTransition; 
-import javafx.animation.RotateTransition; 
-import javafx.animation.ScaleTransition; 
 import javafx.animation.TranslateTransition; 
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.GridPane;
 import javafx.scene.shape.Circle;
-import javafx.util.Duration;
+
 
 /**
  *
