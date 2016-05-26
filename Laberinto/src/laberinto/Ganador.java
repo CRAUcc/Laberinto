@@ -9,7 +9,7 @@ import javafx.scene.control.Alert;
 
 /**
  *
- * @author administrador
+ * @author RubenP
  */
 public class Ganador {
     public void win(double EjeX, double EjeY){

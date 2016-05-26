@@ -17,7 +17,7 @@ import javafx.util.Duration;
 
 /**
  *
- * @author administrador
+ * @author RubenP
  */
 public class Movimiento {
         static final int      KEYBOARD_MOVEMENT_DELTA = 50;

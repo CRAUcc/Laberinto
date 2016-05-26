@@ -12,7 +12,7 @@ import javafx.scene.shape.Shape;
 
 /**
  *
- * @author administrador
+ * @author RubenP
  */
 public class Colisiones {
     double EjeX;
