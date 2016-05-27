@@ -20,6 +20,7 @@ public class Colisiones {
     static final int KEYBOARD_MOVEMENT_DELTA = 50;
     
     Ganador win=new Ganador();
+    
     public void validar (String dato,final Circle circle,ArrayList<Rectangle> rectangleArrayList){
          EjeX=circle.getCenterX();
          EjeY=circle.getCenterY();

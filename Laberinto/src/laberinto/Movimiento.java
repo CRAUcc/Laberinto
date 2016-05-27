@@ -24,18 +24,7 @@ public class Movimiento {
         static final Duration TRANSLATE_DURATION      = Duration.seconds(0.25);
         Colisiones p=new Colisiones();
     
-    public TranslateTransition createTranslateTransition(final Circle circle) {
-        TranslateTransition transition = new TranslateTransition(TRANSLATE_DURATION, circle);
-        transition.setOnFinished(new EventHandler<ActionEvent>() {
-        @Override public void handle(ActionEvent t) {
-            circle.setCenterX(circle.getTranslateX() + circle.getCenterX());
-            circle.setCenterY(circle.getTranslateY() + circle.getCenterY());
-            circle.setTranslateX(0);
-            circle.setTranslateY(0);
-        }
-        });
-        return transition;
-    }
+
     public void moveCircleOnKeyPress(Scene scene, final Circle circle, ArrayList<Rectangle> rectangleArrayList) {
 
         scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
